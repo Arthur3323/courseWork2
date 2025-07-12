@@ -52,6 +52,6 @@ class ExaminerServiceImplTest {
             examinerService.getQuestions(amount);
         });
 
-        assertEquals("Запрошено больше вопросов, чем доступно.", exception.getReason());
+        assertEquals("Запрошено больше вопросов, чем доступно", exception.getReason());
     }
 }

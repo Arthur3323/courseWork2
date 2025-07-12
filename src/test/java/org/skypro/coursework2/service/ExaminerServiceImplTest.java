@@ -19,9 +19,9 @@ class ExaminerServiceImplTest {
         javaQuestionService = new JavaQuestionService();
         examinerService = new ExaminerServiceImpl(javaQuestionService);
 
-        javaQuestionService.add("Вопрос 1", "Ответ 1");
-        javaQuestionService.add("Вопрос 2", "Ответ 2");
-        javaQuestionService.add("Вопрос 3", "Ответ 3");
+        javaQuestionService.add("Вопрос 1 ", "Ответ 1");
+        javaQuestionService.add("Вопрос 2 ", "Ответ 2");
+        javaQuestionService.add("Вопрос 3 ", "Ответ 3");
     }
 
     @Test
